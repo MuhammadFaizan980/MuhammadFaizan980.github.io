@@ -5,7 +5,7 @@ const app = Vue.createApp({
   data() {
     return {
       // the date my career started (change to yours)
-      careerStartDate: 2009,
+      careerStartDate: 2019,
 
       // the date copyright started (change to yours)
       copyrightStartDate: 2021,
@@ -65,61 +65,58 @@ const app = Vue.createApp({
       // list of skills items to loop through it
       skillsItems: [
         {
-          imgUrl: 'assets/images/skills/html5.png',
-          title: 'HTML5'
+          imgUrl: 'assets/images/skills/dart.png',
+          title: 'Dart'
         }, {
-          imgUrl: 'assets/images/skills/css3.png',
-          title: 'CSS3'
+          imgUrl: 'assets/images/skills/flutter.png',
+          title: 'Flutter'
         }, {
-          imgUrl: 'assets/images/skills/javascript.png',
-          title: 'JavaScript'
+          imgUrl: 'assets/images/skills/android.png',
+          title: 'Android'
         }, {
-          imgUrl: 'assets/images/skills/typescript.png',
-          title: 'TypeScript'
+          imgUrl: 'assets/images/skills/kotlin.jpeg',
+          title: 'Kotlin'
         }, {
-          imgUrl: 'assets/images/skills/jquery.png',
-          title: 'jQuery'
+          imgUrl: 'assets/images/skills/java.svg',
+          title: 'Java'
         }, {
-          imgUrl: 'assets/images/skills/bootstrap.png',
-          title: 'Bootstrap'
+          imgUrl: 'assets/images/skills/compose.png',
+          title: 'Jetpack Compose'
         }, {
-          imgUrl: 'assets/images/skills/angular.png',
-          title: 'Angular'
-        }, {
-          imgUrl: 'assets/images/skills/react.png',
-          title: 'React'
-        }, {
-          imgUrl: 'assets/images/skills/vue.png',
-          title: 'Vue'
+          imgUrl: 'assets/images/skills/xml.png',
+          title: 'XML'
         }, {
           imgUrl: 'assets/images/skills/firebase.png',
           title: 'Firebase'
         }, {
-          imgUrl: 'assets/images/skills/pugjs.png',
-          title: 'PugJS'
+          imgUrl: 'assets/images/skills/mvvm.png',
+          title: 'MVVM'
         }, {
-          imgUrl: 'assets/images/skills/sass.png',
-          title: 'SASS'
+          imgUrl: 'assets/images/skills/oop.png',
+          title: 'OOP'
+        }, {
+          imgUrl: 'assets/images/skills/sqlite.jpeg',
+          title: 'SQLite'
+        }, {
+          imgUrl: 'assets/images/skills/rest.webp',
+          title: 'REST APIs'
         }
       ],
 
       // list of tools items to loop through it
       toolsItems: [
         {
-          imgUrl: 'assets/images/skills/ajax.png',
-          title: 'Ajax'
-        }, {
-          imgUrl: 'assets/images/skills/gulp.png',
-          title: 'Gulp'
-        }, {
-          imgUrl: 'assets/images/skills/webpack.png',
-          title: 'Webpack'
-        }, {
+        imgUrl: 'assets/images/skills/studio.webp',
+        title: 'Android Studio'
+      },  {
+        imgUrl: 'assets/images/skills/xcode.png',
+        title: 'XCode'
+      },{
           imgUrl: 'assets/images/skills/git.png',
-          title: 'Git (Github)'
+          title: 'Git'
         }, {
-          imgUrl: 'assets/images/skills/npm.png',
-          title: 'Npm'
+          imgUrl: 'assets/images/skills/jira.png',
+          title: 'Jira'
         }, {
           imgUrl: 'assets/images/skills/command.png',
           title: 'Command Line'
@@ -127,20 +124,23 @@ const app = Vue.createApp({
           imgUrl: 'assets/images/skills/vs-code.png',
           title: 'VS Code'
         }, {
-          imgUrl: 'assets/images/skills/trello.png',
-          title: 'Trello'
-        }, {
           imgUrl: 'assets/images/skills/clickup.png',
           title: 'ClickUp'
         }, {
           imgUrl: 'assets/images/skills/slack.png',
           title: 'Slack'
-        }, {
-          imgUrl: 'assets/images/skills/photoshop.png',
-          title: 'Photoshop'
-        }, {
-          imgUrl: 'assets/images/skills/adobe-xd.png',
-          title: 'Adobe XD'
+        },  {
+          imgUrl: 'assets/images/skills/figma.png',
+          title: 'Figma'
+        },  {
+          imgUrl: 'assets/images/skills/github.webp',
+          title: 'Github'
+        },  {
+          imgUrl: 'assets/images/skills/gitlab.webp',
+          title: 'Gitlab'
+        },  {
+          imgUrl: 'assets/images/skills/bitbucket.png',
+          title: 'Bitbucket'
         }
       ],
 
