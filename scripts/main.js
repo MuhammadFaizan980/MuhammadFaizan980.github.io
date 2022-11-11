@@ -203,24 +203,13 @@ const app = Vue.createApp({
       // list of portfolio items to loop through it
       allPortfolioItems: [
         {
-          url: 'https://play.google.com/store/apps/details?id=com.apps.brainer_book',
-          imgUrl: 'assets/images/portfolio/brainerbook.webp',
-          title: { en: 'Brainer Book', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2020', ar: 'أبريل 2021' },
-          category: { slug: 'angular', name: 'Angular' }
-        }, {
-          url: 'https://play.google.com/store/apps/details?id=mgks.os.jumpi',
-          imgUrl: 'assets/images/portfolio/jump.webp',
-          title: { en: 'Jump', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2020', ar: 'أبريل 2021' },
-          category: { slug: 'vue', name: 'Vue' }
-        }, {
-          url: 'https://play.google.com/store/apps/details?id=com.thampy.dfsa',
-          imgUrl: 'assets/images/portfolio/dfsa.webp',
-          title: { en: 'DFSA', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2021', ar: 'أبريل 2021' },
+          url: 'https://play.google.com/store/apps/details?id=com.org.lsuk',
+          imgUrl: 'assets/images/portfolio/lsuk.webp',
+          title: { en: 'LSUK', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2019', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
-        }, {
+        },
+          {
           url: 'https://play.google.com/store/apps/details?id=com.aramco.saudi.pavilion',
           imgUrl: 'assets/images/portfolio/saudi_pavilion.webp',
           title: { en: 'Saudi Pavilion', ar: 'هنا عنوان المشروع' },
@@ -232,12 +221,24 @@ const app = Vue.createApp({
           title: { en: 'Amass', ar: 'هنا عنوان المشروع' },
           desc: { en: '2019', ar: 'أبريل 2021' },
           category: { slug: 'vue', name: 'Vue' }
-        }, {
-          url: 'https://play.google.com/store/apps/details?id=com.org.lsuk',
-          imgUrl: 'assets/images/portfolio/lsuk.webp',
-          title: { en: 'LSUK', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2019', ar: 'أبريل 2021' },
+        },{
+          url: 'https://play.google.com/store/apps/details?id=com.apps.brainer_book',
+          imgUrl: 'assets/images/portfolio/brainerbook.webp',
+          title: { en: 'Brainer Book', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
+        },{
+          url: 'https://play.google.com/store/apps/details?id=com.thampy.dfsa',
+          imgUrl: 'assets/images/portfolio/dfsa.webp',
+          title: { en: 'DFSA', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
+        },{
+          url: 'https://play.google.com/store/apps/details?id=mgks.os.jumpi',
+          imgUrl: 'assets/images/portfolio/jump.webp',
+          title: { en: 'Jump', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
+          category: { slug: 'vue', name: 'Vue' }
         },{
           url: 'https://play.google.com/store/apps/details?id=com.tentwenty.whocares',
           imgUrl: 'assets/images/portfolio/whocares.webp',
