@@ -5,7 +5,7 @@ const app = Vue.createApp({
   data() {
     return {
       // the date my career started (change to yours)
-      careerStartDate: 2009,
+      careerStartDate: 2019,
 
       // the date copyright started (change to yours)
       copyrightStartDate: 2021,
@@ -65,61 +65,58 @@ const app = Vue.createApp({
       // list of skills items to loop through it
       skillsItems: [
         {
-          imgUrl: 'assets/images/skills/html5.png',
-          title: 'HTML5'
+          imgUrl: 'assets/images/skills/dart.png',
+          title: 'Dart'
         }, {
-          imgUrl: 'assets/images/skills/css3.png',
-          title: 'CSS3'
+          imgUrl: 'assets/images/skills/flutter.png',
+          title: 'Flutter'
         }, {
-          imgUrl: 'assets/images/skills/javascript.png',
-          title: 'JavaScript'
+          imgUrl: 'assets/images/skills/android.png',
+          title: 'Android'
         }, {
-          imgUrl: 'assets/images/skills/typescript.png',
-          title: 'TypeScript'
+          imgUrl: 'assets/images/skills/kotlin.jpeg',
+          title: 'Kotlin'
         }, {
-          imgUrl: 'assets/images/skills/jquery.png',
-          title: 'jQuery'
+          imgUrl: 'assets/images/skills/java.svg',
+          title: 'Java'
         }, {
-          imgUrl: 'assets/images/skills/bootstrap.png',
-          title: 'Bootstrap'
+          imgUrl: 'assets/images/skills/compose.png',
+          title: 'Jetpack Compose'
         }, {
-          imgUrl: 'assets/images/skills/angular.png',
-          title: 'Angular'
-        }, {
-          imgUrl: 'assets/images/skills/react.png',
-          title: 'React'
-        }, {
-          imgUrl: 'assets/images/skills/vue.png',
-          title: 'Vue'
+          imgUrl: 'assets/images/skills/xml.png',
+          title: 'XML'
         }, {
           imgUrl: 'assets/images/skills/firebase.png',
           title: 'Firebase'
         }, {
-          imgUrl: 'assets/images/skills/pugjs.png',
-          title: 'PugJS'
+          imgUrl: 'assets/images/skills/mvvm.png',
+          title: 'MVVM'
         }, {
-          imgUrl: 'assets/images/skills/sass.png',
-          title: 'SASS'
+          imgUrl: 'assets/images/skills/oop.png',
+          title: 'OOP'
+        }, {
+          imgUrl: 'assets/images/skills/sqlite.jpeg',
+          title: 'SQLite'
+        }, {
+          imgUrl: 'assets/images/skills/rest.webp',
+          title: 'REST APIs'
         }
       ],
 
       // list of tools items to loop through it
       toolsItems: [
         {
-          imgUrl: 'assets/images/skills/ajax.png',
-          title: 'Ajax'
-        }, {
-          imgUrl: 'assets/images/skills/gulp.png',
-          title: 'Gulp'
-        }, {
-          imgUrl: 'assets/images/skills/webpack.png',
-          title: 'Webpack'
-        }, {
+        imgUrl: 'assets/images/skills/studio.webp',
+        title: 'Android Studio'
+      },  {
+        imgUrl: 'assets/images/skills/xcode.png',
+        title: 'XCode'
+      },{
           imgUrl: 'assets/images/skills/git.png',
-          title: 'Git (Github)'
+          title: 'Git'
         }, {
-          imgUrl: 'assets/images/skills/npm.png',
-          title: 'Npm'
+          imgUrl: 'assets/images/skills/jira.png',
+          title: 'Jira'
         }, {
           imgUrl: 'assets/images/skills/command.png',
           title: 'Command Line'
@@ -127,82 +124,77 @@ const app = Vue.createApp({
           imgUrl: 'assets/images/skills/vs-code.png',
           title: 'VS Code'
         }, {
-          imgUrl: 'assets/images/skills/trello.png',
-          title: 'Trello'
-        }, {
           imgUrl: 'assets/images/skills/clickup.png',
           title: 'ClickUp'
         }, {
           imgUrl: 'assets/images/skills/slack.png',
           title: 'Slack'
-        }, {
-          imgUrl: 'assets/images/skills/photoshop.png',
-          title: 'Photoshop'
-        }, {
-          imgUrl: 'assets/images/skills/adobe-xd.png',
-          title: 'Adobe XD'
+        },  {
+          imgUrl: 'assets/images/skills/figma.png',
+          title: 'Figma'
+        },  {
+          imgUrl: 'assets/images/skills/github.webp',
+          title: 'Github'
+        },  {
+          imgUrl: 'assets/images/skills/gitlab.webp',
+          title: 'Gitlab'
+        },  {
+          imgUrl: 'assets/images/skills/bitbucket.png',
+          title: 'Bitbucket'
         }
       ],
 
       // list of experience items to loop through it
       experienceItems: [
         {
-          date: '2009',
-          companyName: { en: 'Google Inc.', ar: 'شركة جوجل' },
-          jobTitle: { en: 'Front-End Developer', ar: 'مطور الواجهة الأمامية' },
-          desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
-            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
-          }
-        }, {
-          date: '2011',
-          companyName: { en: 'Facebook Inc.', ar: 'شركة فيسبوك' },
-          jobTitle: { en: 'Full Stack Developer', ar: 'مطوّر الويب المتكامل' },
-          desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        }, {
-          date: '2013',
-          companyName: { en: 'Envato Inc.', ar: 'شركة انفاتو' },
-          jobTitle: { en: 'UI/UX Developer', ar: 'مطور UI/UX' },
-          desc: {
-            en: 'Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript.',
-            ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
-          }
-        }, {
-          date: '2015',
-          companyName: { en: 'Google Inc.', ar: 'شركة جوجل' },
-          jobTitle: { en: 'Front-End Developer', ar: 'مطور الواجهة الأمامية' },
-          desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
-            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
-          }
-        }, {
-          date: '2017',
-          companyName: { en: 'Facebook Inc.', ar: 'شركة فيسبوك' },
-          jobTitle: { en: 'Full Stack Developer', ar: 'مطوّر الويب المتكامل' },
-          desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        }, {
           date: '2019',
-          companyName: { en: 'Google Inc.', ar: 'شركة جوجل' },
-          jobTitle: { en: 'Front-End Developer', ar: 'مطور الواجهة الأمامية' },
+          companyName: { en: 'Infusible Coders.', ar: 'شركة جوجل' },
+          jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
+            en: 'Developed hybrid and native android apps',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }, {
           date: '2021',
-          companyName: { en: 'Facebook Inc.', ar: 'شركة فيسبوك' },
-          jobTitle: { en: 'Full Stack Developer', ar: 'مطوّر الويب المتكامل' },
+          companyName: { en: 'Tentwenty Digital Agency.', ar: 'شركة انفاتو' },
+          jobTitle: { en: 'Flutter Developer', ar: 'مطور UI/UX' },
           desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
+            en: 'Developed hybrid flutter apps',
+            ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
           }
-        }, {}, {}
+        },{
+          date: '2022',
+          companyName: { en: 'SafariOne.', ar: 'شركة جوجل' },
+          jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
+          desc: {
+            en: 'Creating products for SafariOne',
+            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+          }
+        },{
+          date: '2023',
+          companyName: { en: '?.', ar: 'شركة جوجل' },
+          jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
+          desc: {
+            en: 'Let\'s see what future holds for me',
+            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+          }
+        },{
+          date: '2024',
+          companyName: { en: '?.', ar: 'شركة جوجل' },
+          jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
+          desc: {
+            en: 'Let\'s see what future holds for me',
+            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+          }
+        },{
+          date: '2025',
+          companyName: { en: '?.', ar: 'شركة جوجل' },
+          jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
+          desc: {
+            en: 'Let\'s see what future holds for me',
+            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+          }
+        },
       ],
 
       // filter type for items in portfolio section
@@ -211,46 +203,47 @@ const app = Vue.createApp({
       // list of portfolio items to loop through it
       allPortfolioItems: [
         {
-          url: '#',
-          imgUrl: 'assets/images/portfolio/portfolio-1.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
+          url: 'https://play.google.com/store/apps/details?id=com.org.lsuk',
+          imgUrl: 'assets/images/portfolio/lsuk.png',
+          title: { en: 'LSUK', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2019', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
-        }, {
-          url: '#',
-          imgUrl: 'assets/images/portfolio/portfolio-2.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
+        },
+          {
+          url: 'https://play.google.com/store/apps/details?id=com.aramco.saudi.pavilion',
+          imgUrl: 'assets/images/portfolio/saudi_pavilion.png',
+          title: { en: 'Saudi Pavilion', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
         }, {
-          url: '#',
-          imgUrl: 'assets/images/portfolio/portfolio-3.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
+          url: 'https://play.google.com/store/apps/details?id=com.apps.amass',
+          imgUrl: 'assets/images/portfolio/amass.png',
+          title: { en: 'Amass', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2019', ar: 'أبريل 2021' },
           category: { slug: 'vue', name: 'Vue' }
-        }, {
-          url: '#',
-          imgUrl: 'assets/images/portfolio/portfolio-4.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'html', name: 'HTML' }
-        }, {
-          url: '#',
-          imgUrl: 'assets/images/portfolio/portfolio-5.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
+        },{
+          url: 'https://play.google.com/store/apps/details?id=com.apps.brainer_book',
+          imgUrl: 'assets/images/portfolio/brainerbook.png',
+          title: { en: 'Brainer Book', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        }, {
-          url: '#',
-          imgUrl: 'assets/images/portfolio/portfolio-6.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
+        },{
+          url: 'https://play.google.com/store/apps/details?id=com.thampy.dfsa',
+          imgUrl: 'assets/images/portfolio/dfsa.png',
+          title: { en: 'DFSA', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2021', ar: 'أبريل 2021' },
+          category: { slug: 'html', name: 'HTML' }
+        },{
+          url: 'https://play.google.com/store/apps/details?id=mgks.os.jumpi',
+          imgUrl: 'assets/images/portfolio/jump.png',
+          title: { en: 'Jump', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'vue', name: 'Vue' }
-        }, {
-          url: '#',
-          imgUrl: 'assets/images/portfolio/portfolio-7.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
+        },{
+          url: 'https://play.google.com/store/apps/details?id=com.tentwenty.whocares',
+          imgUrl: 'assets/images/portfolio/whocares.png',
+          title: { en: 'WhoCares!', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
         }
       ].reverse(),
