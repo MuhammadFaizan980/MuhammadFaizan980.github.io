@@ -204,44 +204,44 @@ const app = Vue.createApp({
       allPortfolioItems: [
         {
           url: 'https://play.google.com/store/apps/details?id=com.org.lsuk',
-          imgUrl: 'assets/images/portfolio/lsuk.webp',
+          imgUrl: 'assets/images/portfolio/lsuk.png',
           title: { en: 'LSUK', ar: 'هنا عنوان المشروع' },
           desc: { en: '2019', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
         },
           {
           url: 'https://play.google.com/store/apps/details?id=com.aramco.saudi.pavilion',
-          imgUrl: 'assets/images/portfolio/saudi_pavilion.webp',
+          imgUrl: 'assets/images/portfolio/saudi_pavilion.png',
           title: { en: 'Saudi Pavilion', ar: 'هنا عنوان المشروع' },
           desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
         }, {
           url: 'https://play.google.com/store/apps/details?id=com.apps.amass',
-          imgUrl: 'assets/images/portfolio/amass.webp',
+          imgUrl: 'assets/images/portfolio/amass.png',
           title: { en: 'Amass', ar: 'هنا عنوان المشروع' },
           desc: { en: '2019', ar: 'أبريل 2021' },
           category: { slug: 'vue', name: 'Vue' }
         },{
           url: 'https://play.google.com/store/apps/details?id=com.apps.brainer_book',
-          imgUrl: 'assets/images/portfolio/brainerbook.webp',
+          imgUrl: 'assets/images/portfolio/brainerbook.png',
           title: { en: 'Brainer Book', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
         },{
           url: 'https://play.google.com/store/apps/details?id=com.thampy.dfsa',
-          imgUrl: 'assets/images/portfolio/dfsa.webp',
+          imgUrl: 'assets/images/portfolio/dfsa.png',
           title: { en: 'DFSA', ar: 'هنا عنوان المشروع' },
           desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
         },{
           url: 'https://play.google.com/store/apps/details?id=mgks.os.jumpi',
-          imgUrl: 'assets/images/portfolio/jump.webp',
+          imgUrl: 'assets/images/portfolio/jump.png',
           title: { en: 'Jump', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'vue', name: 'Vue' }
         },{
           url: 'https://play.google.com/store/apps/details?id=com.tentwenty.whocares',
-          imgUrl: 'assets/images/portfolio/whocares.webp',
+          imgUrl: 'assets/images/portfolio/whocares.png',
           title: { en: 'WhoCares!', ar: 'هنا عنوان المشروع' },
           desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
