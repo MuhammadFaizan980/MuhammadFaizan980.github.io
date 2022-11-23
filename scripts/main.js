@@ -228,6 +228,18 @@ const app = Vue.createApp({
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
         },{
+          url: 'https://play.google.com/store/apps/details?id=com.contacts.backup.transfer.restore.zp',
+          imgUrl: 'assets/images/portfolio/contacts.png',
+          title: { en: 'Contacts Backup & Transfer App', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
+        },{
+          url: 'https://play.google.com/store/apps/details?id=com.aramco.ithraapp',
+          imgUrl: 'assets/images/portfolio/ithra.png',
+          title: { en: 'Ithra', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
+        },{
           url: 'https://play.google.com/store/apps/details?id=com.thampy.dfsa',
           imgUrl: 'assets/images/portfolio/dfsa.png',
           title: { en: 'DFSA', ar: 'هنا عنوان المشروع' },
@@ -239,6 +251,12 @@ const app = Vue.createApp({
           title: { en: 'Jump', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'vue', name: 'Vue' }
+        },{
+          url: 'https://play.google.com/store/apps/details?id=com.infusiblecoder.multikit.materialuikit',
+          imgUrl: 'assets/images/portfolio/material.png',
+          title: { en: 'Material Design UI Templates', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
         },{
           url: 'https://play.google.com/store/apps/details?id=com.tentwenty.whocares',
           imgUrl: 'assets/images/portfolio/whocares.png',
