@@ -154,7 +154,16 @@ const app = Vue.createApp({
             en: 'Developed hybrid and native android apps',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
-        }, {
+        },{
+          date: '2020',
+          companyName: { en: 'Infusible Coders.', ar: 'شركة جوجل' },
+          jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
+          desc: {
+            en: 'Developed hybrid and native android apps',
+            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+          }
+        }
+         ,{
           date: '2021',
           companyName: { en: 'Tentwenty Digital Agency.', ar: 'شركة انفاتو' },
           jobTitle: { en: 'Flutter Developer', ar: 'مطور UI/UX' },
@@ -170,15 +179,16 @@ const app = Vue.createApp({
             en: 'Creating products for SafariOne',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
-        },{
+        }, {
           date: '2023',
-          companyName: { en: '?.', ar: 'شركة جوجل' },
-          jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
+          companyName: { en: 'SafariOne.', ar: 'شركة جوجل' },
+          jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Let\'s see what future holds for me',
+            en: 'Creating products for SafariOne',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
-        },{
+        },
+        {
           date: '2024',
           companyName: { en: '?.', ar: 'شركة جوجل' },
           jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
@@ -186,15 +196,16 @@ const app = Vue.createApp({
             en: 'Let\'s see what future holds for me',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
-        },{
-          date: '2025',
-          companyName: { en: '?.', ar: 'شركة جوجل' },
-          jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
-          desc: {
-            en: 'Let\'s see what future holds for me',
-            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
-          }
         },
+        // {
+        //   date: '2025',
+        //   companyName: { en: '?.', ar: 'شركة جوجل' },
+        //   jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
+        //   desc: {
+        //     en: 'Let\'s see what future holds for me',
+        //     ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+        //   }
+        // },
       ],
 
       // filter type for items in portfolio section
