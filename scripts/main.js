@@ -214,40 +214,51 @@ const app = Vue.createApp({
       // list of portfolio items to loop through it
       allPortfolioItems: [
         {
-          url: 'https://play.google.com/store/apps/details?id=com.org.lsuk',
-          imgUrl: 'assets/images/portfolio/lsuk.png',
-          title: { en: 'LSUK', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2019', ar: 'أبريل 2021' },
+          url: 'https://apps.apple.com/sa/app/who-cares/id1508421565',
+          imgUrl: 'assets/images/portfolio/whocares_ios.png',
+          title: { en: 'WhoCares! iOS', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
-        },
-          {
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.aramco.saudi.pavilion',
           imgUrl: 'assets/images/portfolio/saudi_pavilion.png',
           title: { en: 'Saudi Pavilion', ar: 'هنا عنوان المشروع' },
           desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
         }, {
-          url: 'https://play.google.com/store/apps/details?id=com.apps.amass',
-          imgUrl: 'assets/images/portfolio/amass.png',
-          title: { en: 'Amass', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2019', ar: 'أبريل 2021' },
-          category: { slug: 'vue', name: 'Vue' }
-        },{
-          url: 'https://play.google.com/store/apps/details?id=com.apps.brainer_book',
-          imgUrl: 'assets/images/portfolio/brainerbook.png',
-          title: { en: 'Brainer Book', ar: 'هنا عنوان المشروع' },
+          url: 'https://apps.apple.com/sa/app/ithra/id1482524303',
+          imgUrl: 'assets/images/portfolio/ithra_ios.png',
+          title: { en: 'Ithra iOS', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
         },{
-          url: 'https://play.google.com/store/apps/details?id=com.contacts.backup.transfer.restore.zp',
-          imgUrl: 'assets/images/portfolio/contacts.png',
-          title: { en: 'Contacts Backup & Transfer App', ar: 'هنا عنوان المشروع' },
+          url: 'https://apps.apple.com/sa/app/farabi-clinics/id1665539016',
+          imgUrl: 'assets/images/portfolio/farabi_ios.png',
+          title: { en: 'Farabi Clinics iOS', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2023', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
+        },{
+          url: 'https://play.google.com/store/apps/details?id=com.infusiblecoder.multikit.materialuikit',
+          imgUrl: 'assets/images/portfolio/material.png',
+          title: { en: 'Material Design UI Templates', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
+        },{
+          url: 'https://apps.apple.com/us/app/dfsa/id1073575697?platform=iphone',
+          imgUrl: 'assets/images/portfolio/dfsa_ios.png',
+          title: { en: 'DFSA iOS', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2021', ar: 'أبريل 2021' },
+          category: { slug: 'html', name: 'HTML' }
         },{
           url: 'https://play.google.com/store/apps/details?id=com.aramco.ithraapp',
           imgUrl: 'assets/images/portfolio/ithra.png',
           title: { en: 'Ithra', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
+        },{
+          url: 'https://play.google.com/store/apps/details?id=com.apps.brainer_book',
+          imgUrl: 'assets/images/portfolio/brainerbook.png',
+          title: { en: 'Brainer Book', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
         },{
@@ -257,15 +268,15 @@ const app = Vue.createApp({
           desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
         },{
-          url: 'https://play.google.com/store/apps/details?id=mgks.os.jumpi',
-          imgUrl: 'assets/images/portfolio/jump.png',
-          title: { en: 'Jump', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2020', ar: 'أبريل 2021' },
-          category: { slug: 'vue', name: 'Vue' }
+          url: 'https://play.google.com/store/apps/details?id=com.sa.farabi',
+          imgUrl: 'assets/images/portfolio/farabi.png',
+          title: { en: 'Farabi Clinics', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2023', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
         },{
-          url: 'https://play.google.com/store/apps/details?id=com.infusiblecoder.multikit.materialuikit',
-          imgUrl: 'assets/images/portfolio/material.png',
-          title: { en: 'Material Design UI Templates', ar: 'هنا عنوان المشروع' },
+          url: 'https://play.google.com/store/apps/details?id=com.contacts.backup.transfer.restore.zp',
+          imgUrl: 'assets/images/portfolio/contacts.png',
+          title: { en: 'Contacts Backup & Transfer App', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
         },{
@@ -279,158 +290,9 @@ const app = Vue.createApp({
 
       // current page of portfolio items
       portfolioItemsPage: 0,
-
+ 
       // viewed portfolio items
-      portfolioItems: [],
-
-      // list of testimonials items to loop through it
-      testimonialsItems: [
-        {
-          imgUrl: 'assets/images/testimonials/testimonials-1.jpg',
-          quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-            ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
-          },
-          quoteAuthor: { en: 'Terrell Grimes', ar: 'جابر العواني' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-2.jpg',
-          quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
-            ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
-          },
-          quoteAuthor: { en: 'Lonny Corkery', ar: 'حسون القلال' },
-          jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-3.jpg',
-          quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
-          },
-          quoteAuthor: { en: 'Max Schmidt DDS', ar: 'مصطفى الخليفي' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-4.jpg',
-          quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
-          },
-          quoteAuthor: { en: 'Amir Stoltenberg', ar: 'عباس العنابي' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-5.jpg',
-          quoteContent: {
-            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
-          },
-          quoteAuthor: { en: 'Kenton Marquardt', ar: 'سمير النجار' },
-          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-6.jpg',
-          quoteContent: {
-            en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
-          },
-          quoteAuthor: { en: 'Reyna Hammes', ar: 'أمير داوود' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-7.jpg',
-          quoteContent: {
-            en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
-          },
-          quoteAuthor: { en: 'Jovan Parisian', ar: 'منصور السقاط' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-8.jpg',
-          quoteContent: {
-            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
-          },
-          quoteAuthor: { en: 'Pasquale Deckow', ar: 'عطا بن عاشور' },
-          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-9.jpg',
-          quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
-          },
-          quoteAuthor: { en: 'Rosa Ferry', ar: 'نافع حاتم' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-10.jpg',
-          quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
-          },
-          quoteAuthor: { en: 'Keshaun Robel', ar: 'صدقي الطويل' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-11.jpg',
-          quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
-            ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
-          },
-          quoteAuthor: { en: 'Casper Paucek', ar: 'حسان ادريس' },
-          jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
-          quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-            ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
-          },
-          quoteAuthor: { en: 'Archibald Fadel', ar: 'مجد الكافي' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-13.jpg',
-          quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-            ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
-          },
-          quoteAuthor: { en: 'Tabitha Denesik', ar: 'آسر بنسلامة' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-14.jpg',
-          quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
-            ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
-          },
-          quoteAuthor: { en: 'Javon Bogan', ar: 'صهيب الشريف' },
-          jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-15.jpg',
-          quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
-          },
-          quoteAuthor: { en: 'Duncan Kemmer', ar: 'سيد كرم' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-16.jpg',
-          quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
-          },
-          quoteAuthor: { en: 'Coy Johns', ar: 'هيثم الشريف' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-17.jpg',
-          quoteContent: {
-            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
-          },
-          quoteAuthor: { en: 'Murphy Roberts', ar: 'إسلام مصطفى' },
-          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-18.jpg',
-          quoteContent: {
-            en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
-          },
-          quoteAuthor: { en: 'Dimitri Lockman', ar: 'وسيم السقا' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
-        }
-      ]
+      portfolioItems: []
     }
   },
   created() {
