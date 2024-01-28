@@ -106,12 +106,12 @@ const app = Vue.createApp({
       // list of tools items to loop through it
       toolsItems: [
         {
-        imgUrl: 'assets/images/skills/studio.webp',
-        title: 'Android Studio'
-      },  {
-        imgUrl: 'assets/images/skills/xcode.png',
-        title: 'XCode'
-      },{
+          imgUrl: 'assets/images/skills/studio.webp',
+          title: 'Android Studio'
+        }, {
+          imgUrl: 'assets/images/skills/xcode.png',
+          title: 'XCode'
+        }, {
           imgUrl: 'assets/images/skills/git.png',
           title: 'Git'
         }, {
@@ -129,16 +129,16 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/skills/slack.png',
           title: 'Slack'
-        },  {
+        }, {
           imgUrl: 'assets/images/skills/figma.png',
           title: 'Figma'
-        },  {
+        }, {
           imgUrl: 'assets/images/skills/github.webp',
           title: 'Github'
-        },  {
+        }, {
           imgUrl: 'assets/images/skills/gitlab.webp',
           title: 'Gitlab'
-        },  {
+        }, {
           imgUrl: 'assets/images/skills/bitbucket.png',
           title: 'Bitbucket'
         }
@@ -154,7 +154,7 @@ const app = Vue.createApp({
             en: 'Developed hybrid and native android apps',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
-        },{
+        }, {
           date: '2020',
           companyName: { en: 'Infusible Coders.', ar: 'شركة جوجل' },
           jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
@@ -163,7 +163,7 @@ const app = Vue.createApp({
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }
-         ,{
+        , {
           date: '2021',
           companyName: { en: 'Infusible Coders.', ar: 'شركة جوجل' },
           jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
@@ -171,7 +171,7 @@ const app = Vue.createApp({
             en: 'Developed hybrid and native android apps',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
-        },{
+        }, {
           date: '2022',
           companyName: { en: 'Infusible Coders.', ar: 'شركة جوجل' },
           jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
@@ -222,55 +222,55 @@ const app = Vue.createApp({
           title: { en: 'Ithra iOS', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        },{
+        }, {
           url: 'https://apps.apple.com/sa/app/farabi-clinics/id1665539016',
           imgUrl: 'assets/images/portfolio/farabi_ios.png',
           title: { en: 'Farabi Clinics iOS', ar: 'هنا عنوان المشروع' },
           desc: { en: '2023', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        },{
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.infusiblecoder.multikit.materialuikit',
           imgUrl: 'assets/images/portfolio/material.png',
           title: { en: 'Material Design UI Templates', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        },{
+        }, {
           url: 'https://apps.apple.com/us/app/dfsa/id1073575697?platform=iphone',
           imgUrl: 'assets/images/portfolio/dfsa_ios.png',
           title: { en: 'DFSA iOS', ar: 'هنا عنوان المشروع' },
           desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
-        },{
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.aramco.ithraapp',
           imgUrl: 'assets/images/portfolio/ithra.png',
           title: { en: 'Ithra', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        },{
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.apps.brainer_book',
           imgUrl: 'assets/images/portfolio/brainerbook.png',
           title: { en: 'Brainer Book', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        },{
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.thampy.dfsa',
           imgUrl: 'assets/images/portfolio/dfsa.png',
           title: { en: 'DFSA', ar: 'هنا عنوان المشروع' },
           desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
-        },{
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.sa.farabi',
           imgUrl: 'assets/images/portfolio/farabi.png',
           title: { en: 'Farabi Clinics', ar: 'هنا عنوان المشروع' },
           desc: { en: '2023', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        },{
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.contacts.backup.transfer.restore.zp',
           imgUrl: 'assets/images/portfolio/contacts.png',
           title: { en: 'Contacts Backup & Transfer App', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        },{
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.tentwenty.whocares',
           imgUrl: 'assets/images/portfolio/whocares.png',
           title: { en: 'WhoCares!', ar: 'هنا عنوان المشروع' },
@@ -281,7 +281,7 @@ const app = Vue.createApp({
 
       // current page of portfolio items
       portfolioItemsPage: 0,
- 
+
       // viewed portfolio items
       portfolioItems: []
     }
@@ -319,7 +319,7 @@ const app = Vue.createApp({
     document.querySelectorAll('.has-ultimate-tooltip').forEach(el => {
       Popper.createPopper(el, el.querySelector('.ultimate-tooltip'), {
         placement: 'top',
-        modifiers: [{ name: 'offset', options: { offset: [0, 30] }}]
+        modifiers: [{ name: 'offset', options: { offset: [0, 30] } }]
       });
     });
   },
@@ -350,28 +350,28 @@ const app = Vue.createApp({
     getAppTheme() {
       // get the saved theme from the localStorage
       const storageSavedTheme = localStorage.getItem('nafieSavedTheme');
-    
+
       // Check to see if there a saved theme
       if (storageSavedTheme) {
         this.savedTheme = storageSavedTheme;
-    
+
       } else {
         // So, try to get the browser default theme or make your own default
-    
+
         // Check to see if Media-Queries are supported
         if (window.matchMedia) {
-    
+
           // Check if the dark-mode Media-Query matches
           if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
             this.savedTheme = 'dark_theme';
           } else { this.savedTheme = 'light_theme'; }
-    
+
         } else {
           // Default (when Media-Queries are not supported)
           this.savedTheme = appTheme;
         }
       }
-    
+
       // save the new theme in the localStorage
       localStorage.setItem('nafieSavedTheme', this.savedTheme);
     },
@@ -429,7 +429,7 @@ const app = Vue.createApp({
           const visibleFocusableEls = [...nav.querySelectorAll(focusableElementsString)]
             .filter(el => window.getComputedStyle(el).getPropertyValue('visibility') !== 'hidden');
           firstTabStop = visibleFocusableEls[0];
-          lastTabStop = visibleFocusableEls[visibleFocusableEls.length -1];
+          lastTabStop = visibleFocusableEls[visibleFocusableEls.length - 1];
 
           if (e.code === 'Tab') {
             if (e.shiftKey) /* shift + tab */ {
@@ -475,14 +475,14 @@ const app = Vue.createApp({
     // scrolling options
     scrollingOptions() {
       const scrollPosition = window.pageYOffset;
-    
+
       // check for current scroll position to minimize the header
       this.isHeaderBig = (scrollPosition >= this.startMinimizingHeaderAt) ? false : true;
-    
+
       // check for current scroll position to toggle the header
       this.isHeaderHidden = ((scrollPosition > 100) && (scrollPosition > this.lastScrollPosition)) ? true : false;
       this.lastScrollPosition = scrollPosition;
-    
+
       // check for current scroll position to show the scrollTop button
       this.isScrollTopBtnDisplayed = (scrollPosition >= this.startShowingScrollTopBtnAt) ? true : false;
     },
@@ -510,9 +510,9 @@ const app = Vue.createApp({
       if ((this.portfolioItemsPage - 1) * size + size < this.allPortfolioItems.length) {
         this.portfolioItemsPage++;
         const itemsArr = this.allPortfolioItems.slice((this.portfolioItemsPage - 1) * size, this.portfolioItemsPage * size);
-  
+
         this.portfolioItems.push(...itemsArr);
-  
+
         // initialize VanillaTilt for new items
         setTimeout(() => this.portfolioItemsPage > 1 && this.initializeTilt(), 0);
 
@@ -534,10 +534,10 @@ const app = Vue.createApp({
       const contactForm = this.$refs.contactForm;
 
       // form controls
-      const name        = contactForm.querySelector('input[name="name"]');
-      const email       = contactForm.querySelector('input[name="email"]');
-      const phone       = contactForm.querySelector('input[name="phone"]');
-      const message     = contactForm.querySelector('textarea');
+      const name = contactForm.querySelector('input[name="name"]');
+      const email = contactForm.querySelector('input[name="email"]');
+      const phone = contactForm.querySelector('input[name="phone"]');
+      const message = contactForm.querySelector('textarea');
 
       // form validation status
       let errors = {
@@ -723,7 +723,7 @@ const app = Vue.createApp({
     },
 
     // show messages by toast notifications
-    setNotify({id, className, msg, time}) {
+    setNotify({ id, className, msg, time }) {
       const notify = {
         id: id || `${Date.now()}${this.notifications.length}`,
         className,
