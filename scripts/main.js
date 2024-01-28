@@ -165,18 +165,18 @@ const app = Vue.createApp({
         }
          ,{
           date: '2021',
-          companyName: { en: 'Tentwenty Digital Agency.', ar: 'شركة انفاتو' },
-          jobTitle: { en: 'Flutter Developer', ar: 'مطور UI/UX' },
+          companyName: { en: 'Infusible Coders.', ar: 'شركة جوجل' },
+          jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Developed hybrid flutter apps',
-            ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
+            en: 'Developed hybrid and native android apps',
+            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         },{
           date: '2022',
-          companyName: { en: 'SafariOne.', ar: 'شركة جوجل' },
+          companyName: { en: 'Infusible Coders.', ar: 'شركة جوجل' },
           jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Creating products for SafariOne',
+            en: 'Developed hybrid and native android apps',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }, {
@@ -190,10 +190,10 @@ const app = Vue.createApp({
         },
         {
           date: '2024',
-          companyName: { en: '?.', ar: 'شركة جوجل' },
-          jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
+          companyName: { en: 'Alfarai Medical Group', ar: 'شركة جوجل' },
+          jobTitle: { en: 'Software Design and Dveloper', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Let\'s see what future holds for me',
+            en: 'Designing and developing applications for AL Farabi Medical Groups, Saudi Arabia',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         },
