@@ -106,12 +106,12 @@ const app = Vue.createApp({
       // list of tools items to loop through it
       toolsItems: [
         {
-        imgUrl: 'assets/images/skills/studio.webp',
-        title: 'Android Studio'
-      },  {
-        imgUrl: 'assets/images/skills/xcode.png',
-        title: 'XCode'
-      },{
+          imgUrl: 'assets/images/skills/studio.webp',
+          title: 'Android Studio'
+        }, {
+          imgUrl: 'assets/images/skills/xcode.png',
+          title: 'XCode'
+        }, {
           imgUrl: 'assets/images/skills/git.png',
           title: 'Git'
         }, {
@@ -129,16 +129,16 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/skills/slack.png',
           title: 'Slack'
-        },  {
+        }, {
           imgUrl: 'assets/images/skills/figma.png',
           title: 'Figma'
-        },  {
+        }, {
           imgUrl: 'assets/images/skills/github.webp',
           title: 'Github'
-        },  {
+        }, {
           imgUrl: 'assets/images/skills/gitlab.webp',
           title: 'Gitlab'
-        },  {
+        }, {
           imgUrl: 'assets/images/skills/bitbucket.png',
           title: 'Bitbucket'
         }
@@ -154,7 +154,7 @@ const app = Vue.createApp({
             en: 'Developed hybrid and native android apps',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
-        },{
+        }, {
           date: '2020',
           companyName: { en: 'Infusible Coders.', ar: 'شركة جوجل' },
           jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
@@ -163,20 +163,20 @@ const app = Vue.createApp({
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }
-         ,{
+        , {
           date: '2021',
-          companyName: { en: 'Tentwenty Digital Agency.', ar: 'شركة انفاتو' },
-          jobTitle: { en: 'Flutter Developer', ar: 'مطور UI/UX' },
-          desc: {
-            en: 'Developed hybrid flutter apps',
-            ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
-          }
-        },{
-          date: '2022',
-          companyName: { en: 'SafariOne.', ar: 'شركة جوجل' },
+          companyName: { en: 'Infusible Coders.', ar: 'شركة جوجل' },
           jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Creating products for SafariOne',
+            en: 'Developed hybrid and native android apps',
+            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+          }
+        }, {
+          date: '2022',
+          companyName: { en: 'Infusible Coders.', ar: 'شركة جوجل' },
+          jobTitle: { en: 'App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
+          desc: {
+            en: 'Developed hybrid and native android apps',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }, {
@@ -190,22 +190,13 @@ const app = Vue.createApp({
         },
         {
           date: '2024',
-          companyName: { en: '?.', ar: 'شركة جوجل' },
-          jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
+          companyName: { en: 'Alfarai Medical Group', ar: 'شركة جوجل' },
+          jobTitle: { en: 'Software Design and Dveloper', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Let\'s see what future holds for me',
+            en: 'Designing and developing applications for AL Farabi Medical Groups, Saudi Arabia',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         },
-        // {
-        //   date: '2025',
-        //   companyName: { en: '?.', ar: 'شركة جوجل' },
-        //   jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
-        //   desc: {
-        //     en: 'Let\'s see what future holds for me',
-        //     ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
-        //   }
-        // },
       ],
 
       // filter type for items in portfolio section
@@ -214,61 +205,72 @@ const app = Vue.createApp({
       // list of portfolio items to loop through it
       allPortfolioItems: [
         {
-          url: 'https://play.google.com/store/apps/details?id=com.org.lsuk',
-          imgUrl: 'assets/images/portfolio/lsuk.png',
-          title: { en: 'LSUK', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2019', ar: 'أبريل 2021' },
+          url: 'https://apps.apple.com/sa/app/who-cares/id1508421565',
+          imgUrl: 'assets/images/portfolio/whocares_ios.png',
+          title: { en: 'WhoCares! iOS', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
-        },
-          {
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.aramco.saudi.pavilion',
           imgUrl: 'assets/images/portfolio/saudi_pavilion.png',
           title: { en: 'Saudi Pavilion', ar: 'هنا عنوان المشروع' },
           desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
         }, {
-          url: 'https://play.google.com/store/apps/details?id=com.apps.amass',
-          imgUrl: 'assets/images/portfolio/amass.png',
-          title: { en: 'Amass', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2019', ar: 'أبريل 2021' },
-          category: { slug: 'vue', name: 'Vue' }
-        },{
-          url: 'https://play.google.com/store/apps/details?id=com.apps.brainer_book',
-          imgUrl: 'assets/images/portfolio/brainerbook.png',
-          title: { en: 'Brainer Book', ar: 'هنا عنوان المشروع' },
+          url: 'https://apps.apple.com/sa/app/ithra/id1482524303',
+          imgUrl: 'assets/images/portfolio/ithra_ios.png',
+          title: { en: 'Ithra iOS', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        },{
-          url: 'https://play.google.com/store/apps/details?id=com.contacts.backup.transfer.restore.zp',
-          imgUrl: 'assets/images/portfolio/contacts.png',
-          title: { en: 'Contacts Backup & Transfer App', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2020', ar: 'أبريل 2021' },
+        }, {
+          url: 'https://apps.apple.com/sa/app/farabi-clinics/id1665539016',
+          imgUrl: 'assets/images/portfolio/farabi_ios.png',
+          title: { en: 'Farabi Clinics iOS', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2023', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        },{
-          url: 'https://play.google.com/store/apps/details?id=com.aramco.ithraapp',
-          imgUrl: 'assets/images/portfolio/ithra.png',
-          title: { en: 'Ithra', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2020', ar: 'أبريل 2021' },
-          category: { slug: 'angular', name: 'Angular' }
-        },{
-          url: 'https://play.google.com/store/apps/details?id=com.thampy.dfsa',
-          imgUrl: 'assets/images/portfolio/dfsa.png',
-          title: { en: 'DFSA', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2021', ar: 'أبريل 2021' },
-          category: { slug: 'html', name: 'HTML' }
-        },{
-          url: 'https://play.google.com/store/apps/details?id=mgks.os.jumpi',
-          imgUrl: 'assets/images/portfolio/jump.png',
-          title: { en: 'Jump', ar: 'هنا عنوان المشروع' },
-          desc: { en: '2020', ar: 'أبريل 2021' },
-          category: { slug: 'vue', name: 'Vue' }
-        },{
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.infusiblecoder.multikit.materialuikit',
           imgUrl: 'assets/images/portfolio/material.png',
           title: { en: 'Material Design UI Templates', ar: 'هنا عنوان المشروع' },
           desc: { en: '2020', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
-        },{
+        }, {
+          url: 'https://apps.apple.com/us/app/dfsa/id1073575697?platform=iphone',
+          imgUrl: 'assets/images/portfolio/dfsa_ios.png',
+          title: { en: 'DFSA iOS', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2021', ar: 'أبريل 2021' },
+          category: { slug: 'html', name: 'HTML' }
+        }, {
+          url: 'https://play.google.com/store/apps/details?id=com.aramco.ithraapp',
+          imgUrl: 'assets/images/portfolio/ithra.png',
+          title: { en: 'Ithra', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
+        }, {
+          url: 'https://play.google.com/store/apps/details?id=com.apps.brainer_book',
+          imgUrl: 'assets/images/portfolio/brainerbook.png',
+          title: { en: 'Brainer Book', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
+        }, {
+          url: 'https://play.google.com/store/apps/details?id=com.thampy.dfsa',
+          imgUrl: 'assets/images/portfolio/dfsa.png',
+          title: { en: 'DFSA', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2021', ar: 'أبريل 2021' },
+          category: { slug: 'html', name: 'HTML' }
+        }, {
+          url: 'https://play.google.com/store/apps/details?id=com.sa.farabi',
+          imgUrl: 'assets/images/portfolio/farabi.png',
+          title: { en: 'Farabi Clinics', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2023', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
+        }, {
+          url: 'https://play.google.com/store/apps/details?id=com.contacts.backup.transfer.restore.zp',
+          imgUrl: 'assets/images/portfolio/contacts.png',
+          title: { en: 'Contacts Backup & Transfer App', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2020', ar: 'أبريل 2021' },
+          category: { slug: 'angular', name: 'Angular' }
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.tentwenty.whocares',
           imgUrl: 'assets/images/portfolio/whocares.png',
           title: { en: 'WhoCares!', ar: 'هنا عنوان المشروع' },
@@ -281,156 +283,7 @@ const app = Vue.createApp({
       portfolioItemsPage: 0,
 
       // viewed portfolio items
-      portfolioItems: [],
-
-      // list of testimonials items to loop through it
-      testimonialsItems: [
-        {
-          imgUrl: 'assets/images/testimonials/testimonials-1.jpg',
-          quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-            ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
-          },
-          quoteAuthor: { en: 'Terrell Grimes', ar: 'جابر العواني' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-2.jpg',
-          quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
-            ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
-          },
-          quoteAuthor: { en: 'Lonny Corkery', ar: 'حسون القلال' },
-          jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-3.jpg',
-          quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
-          },
-          quoteAuthor: { en: 'Max Schmidt DDS', ar: 'مصطفى الخليفي' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-4.jpg',
-          quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
-          },
-          quoteAuthor: { en: 'Amir Stoltenberg', ar: 'عباس العنابي' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-5.jpg',
-          quoteContent: {
-            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
-          },
-          quoteAuthor: { en: 'Kenton Marquardt', ar: 'سمير النجار' },
-          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-6.jpg',
-          quoteContent: {
-            en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
-          },
-          quoteAuthor: { en: 'Reyna Hammes', ar: 'أمير داوود' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-7.jpg',
-          quoteContent: {
-            en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
-          },
-          quoteAuthor: { en: 'Jovan Parisian', ar: 'منصور السقاط' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-8.jpg',
-          quoteContent: {
-            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
-          },
-          quoteAuthor: { en: 'Pasquale Deckow', ar: 'عطا بن عاشور' },
-          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-9.jpg',
-          quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
-          },
-          quoteAuthor: { en: 'Rosa Ferry', ar: 'نافع حاتم' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-10.jpg',
-          quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
-          },
-          quoteAuthor: { en: 'Keshaun Robel', ar: 'صدقي الطويل' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-11.jpg',
-          quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
-            ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
-          },
-          quoteAuthor: { en: 'Casper Paucek', ar: 'حسان ادريس' },
-          jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
-          quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-            ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
-          },
-          quoteAuthor: { en: 'Archibald Fadel', ar: 'مجد الكافي' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-13.jpg',
-          quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-            ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
-          },
-          quoteAuthor: { en: 'Tabitha Denesik', ar: 'آسر بنسلامة' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-14.jpg',
-          quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
-            ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
-          },
-          quoteAuthor: { en: 'Javon Bogan', ar: 'صهيب الشريف' },
-          jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-15.jpg',
-          quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
-          },
-          quoteAuthor: { en: 'Duncan Kemmer', ar: 'سيد كرم' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-16.jpg',
-          quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
-          },
-          quoteAuthor: { en: 'Coy Johns', ar: 'هيثم الشريف' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-17.jpg',
-          quoteContent: {
-            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
-          },
-          quoteAuthor: { en: 'Murphy Roberts', ar: 'إسلام مصطفى' },
-          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-18.jpg',
-          quoteContent: {
-            en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
-          },
-          quoteAuthor: { en: 'Dimitri Lockman', ar: 'وسيم السقا' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
-        }
-      ]
+      portfolioItems: []
     }
   },
   created() {
@@ -466,7 +319,7 @@ const app = Vue.createApp({
     document.querySelectorAll('.has-ultimate-tooltip').forEach(el => {
       Popper.createPopper(el, el.querySelector('.ultimate-tooltip'), {
         placement: 'top',
-        modifiers: [{ name: 'offset', options: { offset: [0, 30] }}]
+        modifiers: [{ name: 'offset', options: { offset: [0, 30] } }]
       });
     });
   },
@@ -497,28 +350,28 @@ const app = Vue.createApp({
     getAppTheme() {
       // get the saved theme from the localStorage
       const storageSavedTheme = localStorage.getItem('nafieSavedTheme');
-    
+
       // Check to see if there a saved theme
       if (storageSavedTheme) {
         this.savedTheme = storageSavedTheme;
-    
+
       } else {
         // So, try to get the browser default theme or make your own default
-    
+
         // Check to see if Media-Queries are supported
         if (window.matchMedia) {
-    
+
           // Check if the dark-mode Media-Query matches
           if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
             this.savedTheme = 'dark_theme';
           } else { this.savedTheme = 'light_theme'; }
-    
+
         } else {
           // Default (when Media-Queries are not supported)
           this.savedTheme = appTheme;
         }
       }
-    
+
       // save the new theme in the localStorage
       localStorage.setItem('nafieSavedTheme', this.savedTheme);
     },
@@ -576,7 +429,7 @@ const app = Vue.createApp({
           const visibleFocusableEls = [...nav.querySelectorAll(focusableElementsString)]
             .filter(el => window.getComputedStyle(el).getPropertyValue('visibility') !== 'hidden');
           firstTabStop = visibleFocusableEls[0];
-          lastTabStop = visibleFocusableEls[visibleFocusableEls.length -1];
+          lastTabStop = visibleFocusableEls[visibleFocusableEls.length - 1];
 
           if (e.code === 'Tab') {
             if (e.shiftKey) /* shift + tab */ {
@@ -622,14 +475,14 @@ const app = Vue.createApp({
     // scrolling options
     scrollingOptions() {
       const scrollPosition = window.pageYOffset;
-    
+
       // check for current scroll position to minimize the header
       this.isHeaderBig = (scrollPosition >= this.startMinimizingHeaderAt) ? false : true;
-    
+
       // check for current scroll position to toggle the header
       this.isHeaderHidden = ((scrollPosition > 100) && (scrollPosition > this.lastScrollPosition)) ? true : false;
       this.lastScrollPosition = scrollPosition;
-    
+
       // check for current scroll position to show the scrollTop button
       this.isScrollTopBtnDisplayed = (scrollPosition >= this.startShowingScrollTopBtnAt) ? true : false;
     },
@@ -657,9 +510,9 @@ const app = Vue.createApp({
       if ((this.portfolioItemsPage - 1) * size + size < this.allPortfolioItems.length) {
         this.portfolioItemsPage++;
         const itemsArr = this.allPortfolioItems.slice((this.portfolioItemsPage - 1) * size, this.portfolioItemsPage * size);
-  
+
         this.portfolioItems.push(...itemsArr);
-  
+
         // initialize VanillaTilt for new items
         setTimeout(() => this.portfolioItemsPage > 1 && this.initializeTilt(), 0);
 
@@ -681,10 +534,10 @@ const app = Vue.createApp({
       const contactForm = this.$refs.contactForm;
 
       // form controls
-      const name        = contactForm.querySelector('input[name="name"]');
-      const email       = contactForm.querySelector('input[name="email"]');
-      const phone       = contactForm.querySelector('input[name="phone"]');
-      const message     = contactForm.querySelector('textarea');
+      const name = contactForm.querySelector('input[name="name"]');
+      const email = contactForm.querySelector('input[name="email"]');
+      const phone = contactForm.querySelector('input[name="phone"]');
+      const message = contactForm.querySelector('textarea');
 
       // form validation status
       let errors = {
@@ -870,7 +723,7 @@ const app = Vue.createApp({
     },
 
     // show messages by toast notifications
-    setNotify({id, className, msg, time}) {
+    setNotify({ id, className, msg, time }) {
       const notify = {
         id: id || `${Date.now()}${this.notifications.length}`,
         className,
