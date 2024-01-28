@@ -197,15 +197,6 @@ const app = Vue.createApp({
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         },
-        // {
-        //   date: '2025',
-        //   companyName: { en: '?.', ar: 'شركة جوجل' },
-        //   jobTitle: { en: 'Most likely an App Developer (Flutter + Kotlin)', ar: 'مطور الواجهة الأمامية' },
-        //   desc: {
-        //     en: 'Let\'s see what future holds for me',
-        //     ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
-        //   }
-        // },
       ],
 
       // filter type for items in portfolio section
