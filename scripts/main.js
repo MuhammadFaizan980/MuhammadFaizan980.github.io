@@ -211,6 +211,12 @@ const app = Vue.createApp({
           desc: { en: '2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
         }, {
+          url: 'https://apps.apple.com/ae/app/the-secret-society/id1569199557',
+          imgUrl: 'assets/images/portfolio/tss.png',
+          title: { en: 'TSS', ar: 'هنا عنوان المشروع' },
+          desc: { en: '2023', ar: 'أبريل 2023' },
+          category: { slug: 'angular', name: 'Angular' }
+        }, {
           url: 'https://play.google.com/store/apps/details?id=com.aramco.saudi.pavilion',
           imgUrl: 'assets/images/portfolio/saudi_pavilion.png',
           title: { en: 'Saudi Pavilion', ar: 'هنا عنوان المشروع' },
